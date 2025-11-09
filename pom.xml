@@ -9,11 +9,16 @@
     <version>1.0-RELEASE</version>
 
     <dependencies>
-        <dependency>
-            <groupId>org.kohsuke</groupId>
-            <artifactId>github-api</artifactId>
-            <version>1.49</version>
-        </dependency>
+	<dependency>
+            	<groupId>org.kohsuke</groupId>
+            	<artifactId>github-api</artifactId>
+            	<version>1.49</version>
+    	</dependency>
+	<dependency>
+    		<groupId>com.opencsv</groupId>
+    		<artifactId>opencsv</artifactId>
+    		<version>5.9</version>
+	</dependency>
     </dependencies>
 
     <build>
